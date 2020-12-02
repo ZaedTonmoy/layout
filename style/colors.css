@@ -1,0 +1,15 @@
+h1{
+    color: orange;
+}
+h2{
+    color: #bbbbbb;
+}
+h3{
+    color: rgb(160, 115, 115);
+}
+h4{
+    color: rgba(37, 18, 18, 0.5);
+}
+h5{
+    color: hsl(147, 50%, 47%);
+}

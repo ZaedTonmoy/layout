@@ -1,0 +1,131 @@
+*{margin: 0px; padding: 0px;}
+p{
+    margin: 0px;
+    text-align: center;
+    font-size: large;
+    color: rgb(202, 226, 236);
+    padding-top: 2em ;
+}
+.first1 p, .second1 p{
+    padding-top: 6em;
+}
+.first2 p, .second2 p{
+    padding-top: 8em;
+}
+.header{
+    min-height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.container{
+    border: 0.2rem solid gray;
+    border-bottom: none;
+}
+.section1, .section2, .section3{
+    overflow: hidden;
+    background-color: black;
+}
+.first1{
+    width: 49.8%;
+    min-height:250px;
+    background-color: blue;
+    float: left;
+    border-right: 0.2rem solid black;
+}
+.second1{
+    width: 49.8%;
+    min-height: 250px;
+    background-color: red;
+    float: right;
+}
+.first2{
+    width: 49.8%;
+    min-height:350px;
+    background-color: green;
+    float: left;
+    border-right: 0.2rem solid black;
+}
+.second2{
+    width: 24.5%;
+    min-height: 350px;
+    background-color: teal;
+    float: left;
+    border-right: 0.2rem solid black;
+}
+.third2{
+    width: 24.9%;
+    min-height: 350px;
+    background-color: yellow;
+    float: left;
+}
+.third2 p{
+    padding-top: 150px;
+}
+.first3{
+    width: 24.9%;
+    min-height: 150px;
+    background-color: rgb(54, 54, 44);
+    float: left;
+    border-right: 0.2rem solid black;
+}
+.second3{
+    width: 24.9%;
+    min-height: 150px;
+    background-color: rgb(126, 25, 72);
+    float: left;
+    border-right: 0.2rem solid black;
+}
+.third3{
+    width: 24.4%;
+    min-height: 150px;
+    background-color: rgb(216, 150, 63);
+    float: left;
+    border-right: 0.2rem solid black;
+}
+.forth3{
+    width: 24.9%;
+    min-height: 150px;
+    background-color: rgb(112, 188, 231);
+    float: left;
+    border-right: 0.1rem solid black;
+}
+.footer{
+    min-height: 100px;
+    background-color: rgb(116, 116, 112);
+}
+.menu{
+    margin-bottom: none;
+}
+nav{
+    background-color: gray;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    display: inline-block;
+    width: 17%;
+    list-style-type: none;
+    padding: 15px;
+    border: .2em solid black;
+    text-align: center;
+    background-color: rgb(29, 85, 85);
+}
+nav ul li:hover{
+    background-color: rgb(25, 43, 43);
+    -webkit-box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 13px 10px 5px -8px rgba(0,0,0,0.75);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li a:hover{
+    font-size: 14px ;
+}
